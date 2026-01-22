@@ -1,0 +1,44 @@
+class Student{
+    String name;
+    int age;
+    public void printinfo(int age)
+    {
+        Sytem.out.println("Age:" +age);
+    }
+    public void printinfo(String name)
+    {
+        System.out.println("Name:" +name);
+    }
+    public void printinfo(String name, int age)
+    {
+        System.out.println("Name:" +name+ " Age:" +age);
+    }
+}
+class Shape{
+    String color;
+}
+class Triangle extends Shape{
+    int height;
+int base;
+float area=0.5f*height*base;
+public void printarea()
+{
+    System.out.println("Area of Triangle:" +area);
+}
+}
+class Square extends Shape{
+    int len;
+    int height;
+    int area=l*b;
+    public void printarea()
+    {
+        System.out.println("Area of Square:" +area);
+    }
+}
+class EquailateralTriangle extends Triangle{
+    public void printcolor()
+    {
+        System.out.println("Color of Equailateral Triangle:" +color);
+    }
+}
+ 
